@@ -210,6 +210,6 @@ app.delete("/orders/:orderId", (req, res) => {
     });
 });
 
-app.listen(5001, function () {
-  console.log("Server is listening on port 5000. Ready to accept requests!");
+app.listen(port, function () {
+  console.log("Server is listening on port 9999. Ready to accept requests!");
 });
